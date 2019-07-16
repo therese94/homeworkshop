@@ -5,6 +5,11 @@
 > Python에서 사용할 수 없는 식별자(예약어)를 찾아 작성하세요.
 
 ```python
+import keyword
+print(keyword.kwlist)		# 이렇게 하면 키워드를 확인할 수 있다.
+```
+
+```
 False, None, True, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
 ```
 
@@ -23,15 +28,16 @@ False, None, True, and, as, assert, break, class, continue, def, del, elif, else
 
 ```python
 import math
-math.isclose(a, b)
+a = 0.1 * 3
+b = 0.3
+math.isclose(a, b)		#가장 간단한 방법
 ```
 
 방법 2)
 
 ```python
-a = 3.5 - 3.12
-b = 0.38
-
+a = 0.1 * 3
+b = 0.3
 abs(a - b) <= 1e-10
 ```
 
@@ -39,6 +45,8 @@ abs(a - b) <= 1e-10
 
 ```python
 import sys
+a = 0.1 * 3
+b = 0.3
 abs(a - b) <= sys.float_info.epsilon
 ```
 

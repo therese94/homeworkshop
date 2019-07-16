@@ -1,0 +1,65 @@
+# Homework_day02
+
+
+
+## 1번 문제
+
+> 아래 보기 중, 변경할 수 있는(mutable) 것과 변경 불가능한 것(immutable)을
+> 구분 하시오.
+>
+> **<u>String</u> 	List	 <u>Tuple</u>	 <u>Range</u>	 Set	 Dictionary**
+
+=> String, Tuple, Range는 불변값이고 나머지는 변경 가능하다
+
+
+
+--------------------------------------------------------------------
+
+
+
+## 2번 문제
+
+> range와 slicing을 활용하여 1부터 50까지 숫자 중 홀수로 이루어진
+> 리스트를 만드시오.
+
+```python
+odd_num_list = []
+for i in range(1, 51):
+    if i % 2 == 1:
+        odd_num_list.append(i)
+print(odd_num_list)
+```
+
+(아래 2번 문제 실행화면)
+
+![1563255635892](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563255635892.png)
+
+
+
+--------------------------------------------------------
+
+
+
+## 3번 문제
+
+> 반 학생들의 정보를 이용하여 key는 이름, value는 나이인 딕셔너리를 만드시오.
+
+```python
+name_list = []
+name_dict = {}
+for i in range(24):
+    x = input()
+    name_list.append(x)
+
+#print(name_list)
+
+for i in range(24):
+    name_dict[name_list[i]] = 26
+
+print(name_dict)
+```
+
+(아래 3번 문제 실행화면) - 학생 이름은 구글 폼에서 복사해왔습니다.
+
+![1563255492799](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563255492799.png)
+
