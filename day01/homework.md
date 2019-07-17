@@ -114,6 +114,6 @@ print(f'안녕 {name}야')
 > 다음 중 형변환시 오류가 발생하는 것은?
 > str (1)	int ('30')	int (5)	bool('50')	<u>**int ('3.5')**</u>
 
-![1563179965091](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563179965091.png)
+![](img/homework_05.png)
 
 * string 3.5를 int로 변환할 수는 없다.

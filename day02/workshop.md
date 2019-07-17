@@ -17,7 +17,7 @@ for i in range(m):
 
 (아래 1번 문제 실행화면)
 
-![1563255838836](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563255838836.png)
+![](img/workshop_01.png)
 
 
 
@@ -44,9 +44,7 @@ print(ave)
 
 (아래 2번 실행화면)
 
-
-
-![1563255790375](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563255790375.png)
+![](img/workshop_02.png)
 
 
 
@@ -58,7 +56,7 @@ print(ave)
 
 > 다음은 여러 사람의 혈액형(A, B, AB, O)에 대한 데이터이다. 반복문을 사용하여 key는 혈액형의 종류, value는 인원 수인 딕셔너리를 만들고 출력하시오.
 >
-> ![1563253962626](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563253962626.png)
+> ![](img/workshop_03_q.png)
 
 ```python
 blood_types = ['A', 'B', 'A', 'O', 'AB', 'AB', 'O', 'A', 'B', 'O', 'B', 'AB',]
@@ -80,4 +78,7 @@ blood_dict['O'] = num_O
 blood_dict['AB'] = num_AB
 ```
 
-(아래 3번 문제 실행화면)![1563255684801](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1563255684801.png)
+(아래 3번 문제 실행화면)
+
+![](img/workshop_03.png)
+
