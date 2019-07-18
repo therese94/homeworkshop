@@ -9,10 +9,10 @@
 ```python
 def palindrome(word):
     for i in range(int(len(word)/2)):
-        if word[i] == word[-1-i]:
-            return True
-        else:
+        if word[i] != word[-1-i]:   #하나라도 다른게 있으면 False 반환
             return False
+        else:
+            return True
 
 print(palindrome('abcdedcba'))
 print(palindrome('abcdedcb'))
@@ -23,4 +23,13 @@ print(palindrome('abcdedcb'))
 ![](img/workshop_01.png)
 
 ------------------------------------------------------------------------------------------------------------
+
+
+
+```python
+##다른답
+
+def palindrome(word):
+	return True if list(word) == list(reversed(word)) else False
+```
 
