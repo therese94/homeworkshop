@@ -27,9 +27,16 @@ print(palindrome('abcdedcb'))
 
 
 ```python
-##다른답
+##다른답               #reversed 함수 사용
 
 def palindrome(word):
 	return True if list(word) == list(reversed(word)) else False
+```
+
+```python
+##다른답 2             #슬라이싱 사용
+
+def palindrome(word):
+return word == word[::-1]
 ```
 
