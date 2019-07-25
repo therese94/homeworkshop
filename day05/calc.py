@@ -1,3 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def sum(a, b):
     return a + b
 
@@ -13,5 +38,5 @@ def div(a, b):
     except ZeroDivisionError:
         print('0으로는 나눌 수 없습니다.')
 
-
+div(5, 0)
     
